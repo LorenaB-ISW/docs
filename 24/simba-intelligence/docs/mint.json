@@ -1,0 +1,134 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Simba Intelligence",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "https://insightsoftware.com/support"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://insightsoftware.com"
+  },
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "integration/developer-resources"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "insightsoftware",
+      "icon": "globe",
+      "url": "https://insightsoftware.com"
+    },
+    {
+      "name": "Community",
+      "icon": "slack",
+      "url": "https://community.insightsoftware.com"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "getting-started/Product-Overview",
+        "getting-started/Quick-Start-Guide",
+        "getting-started/Installation-Guide",
+        "getting-started/System-Requirements"
+      ]
+    },
+    {
+      "group": "Deployment",
+      "pages": [
+        "deployment/installation-and-setup/Configuration-Reference",
+        "deployment/installation-and-setup/Docker-Deployment-Guide",
+        "deployment/installation-and-setup/Helm-Chart-Reference",
+        "deployment/installation-and-setup/Kubernetes-Deployment-Guide"
+      ]
+    },
+    {
+      "group": "Operations & Maintenance",
+      "pages": [
+        "deployment/operations-and-maintenance/Operations-Guide",
+        "deployment/operations-and-maintenance/Monitoring-and-Alerting",
+        "deployment/operations-and-maintenance/Backup-and-Recovery",
+        "deployment/operations-and-maintenance/Upgrade-Procedures"
+      ]
+    },
+    {
+      "group": "ADMIN Guides",
+      "pages": [
+        "guides/admin-guides/Administrator-Guide",
+        "guides/admin-guides/Authentication-and-Security",
+        "guides/admin-guides/LLM-Provider-Configuration",
+        "guides/admin-guides/Performance-Monitoring"
+      ]
+    },
+    {
+      "group": "User Guides",
+      "pages": [
+        "guides/user-guides/Data-Agent-User-Guide",
+        "guides/user-guides/Data-Connector-Management",
+        "guides/user-guides/Playground-User-Guide",
+        "guides/user-guides/Query-Results-and-Export-Guide"
+      ]
+    },
+    {
+      "group": "Data Source Integrations",
+      "pages": [
+        "integration/data-source-guides/Custom-Database-Integration",
+        "integration/data-source-guides/PostgreSQL-Integration",
+        "integration/data-source-guides/Snowflake-Integration",
+        "integration/data-source-guides/SQL-Server-Integration"
+      ]
+    },
+    {
+      "group": "Developer Resources",
+      "pages": [
+        "integration/developer-resources/API-Reference",
+        "integration/developer-resources/Integration-Guide",
+        "integration/developer-resources/Custom-Connector-Development",
+        "integration/developer-resources/Webhook-Configuration"
+      ]
+    },
+    {
+      "group": "Supplementary Resources",
+      "pages": [
+        "reference/supplementary-resources/Glossary",
+        "reference/supplementary-resources/Release-Notes",
+        "reference/supplementary-resources/Performance-Tuning",
+        "reference/supplementary-resources/Security-Best-Practices"
+      ]
+    },
+    {
+      "group": "Technical Reference",
+      "pages": [
+        "reference/technical/Architecture-Reference",
+        "reference/technical/Configuration-Schema",
+        "reference/technical/Supported-Platforms-and-Versions",
+        "reference/technical/Error-Codes-and-Troubleshooting"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/insightsoftware",
+    "github": "https://github.com/insightsoftware",
+    "linkedin": "https://www.linkedin.com/company/insightsoftware"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Simba Intelligence",
+  "colors": {
+    "primary": "#2E2E2D",
+    "light": "#FFFFFF",
+    "dark": "#2E2E2D"
+  },
+  "favicon": "/favicon.svg",
+  "appearance": {
+    "default": "dark",
+    "strict": true
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "simba-intelligence/docs/getting-started/Product-Overview",
+              "simba-intelligence/docs/getting-started/Quick-Start-Guide",
+              "simba-intelligence/docs/getting-started/Installation-Guide",
+              "simba-intelligence/docs/getting-started/System-Requirements"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "simba-intelligence/docs/deployment/installation-and-setup/Helm-Chart-Reference"
+            ]
+          },
+          {
+            "group": "Operations & Maintenance",
+            "pages": [
+              "simba-intelligence/docs/deployment/operations-and-maintenance/Monitoring-and-Alerting",
+              "simba-intelligence/docs/deployment/operations-and-maintenance/Backup-and-Recovery",
+              "simba-intelligence/docs/deployment/operations-and-maintenance/Upgrade-Procedures"
+            ]
+          },
+          {
+            "group": "Admin Guides",
+            "pages": [
+              "simba-intelligence/docs/guides/admin-guides/Administrator-Guide",
+              "simba-intelligence/docs/guides/admin-guides/Authentication-and-Security",
+              "simba-intelligence/docs/guides/admin-guides/LLM-Provider-Configuration"
+            ]
+          },
+          {
+            "group": "User Guides",
+            "pages": [
+              "simba-intelligence/docs/guides/user-guides/API-Usage-Guide",
+              "simba-intelligence/docs/guides/user-guides/Data-Agent-User-Guide",
+              "simba-intelligence/docs/guides/user-guides/Data-Connection-Management",
+              "simba-intelligence/docs/guides/user-guides/Data-Source-Optimization-Guide",
+              "simba-intelligence/docs/guides/user-guides/Playground-User-Guide",
+              "simba-intelligence/docs/guides/user-guides/Query-Results-and-Export-Guide",
+              "simba-intelligence/docs/guides/user-guides/Rules-Management-Guide"
+            ]
+          },
+          {
+            "group": "Supplementary Resources",
+            "pages": [
+              "simba-intelligence/docs/reference/supplementary-resources/Glossary",
+              "simba-intelligence/docs/reference/supplementary-resources/Performance-Tuning",
+              "simba-intelligence/docs/reference/supplementary-resources/Security-Best-Practices"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "anchors": [
+    {
+      "anchor": "insightsoftware",
+      "href": "https://insightsoftware.com",
+      "icon": "globe"
+    }
+  ],
+  "logo": {
+    "light": "/assets/ISW-Logo-SimbaIntelligence-D+A-Black.png",
+    "dark": "/assets/ISW-Logo-SimbaIntelligence-D+A-Black.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "https://insightsoftware.com/support/product-support/"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "https://insightsoftware.com/data-and-analytics/"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/insightsoftware",
+      "github": "https://github.com/insightsoftware",
+      "linkedin": "https://www.linkedin.com/company/insightsoftware"
+    }
+  }
+}
